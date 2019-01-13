@@ -4,7 +4,8 @@
   "description": "Simple config webpack4 and webpack dev server with babel7, scss and lodash",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "dev": "webpack-dev-server --open --mode development",
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
@@ -24,5 +25,11 @@
   "bugs": {
     "url": "https://github.com/MegaRoks/webpack-starter/issues"
   },
-  "homepage": "https://github.com/MegaRoks/webpack-starter#readme"
+  "homepage": "https://github.com/MegaRoks/webpack-starter#readme",
+  "devDependencies": {
+    "path": "^0.12.7",
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14"
+  }
 }
