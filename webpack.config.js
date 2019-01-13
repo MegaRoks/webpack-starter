@@ -13,8 +13,8 @@ module.exports = {
     module: {
         rules: [{
                 test: /\.js$/,
-                loader: 'babel-loader',
-                exclude: '/node_modules/'
+                loader: "babel-loader",
+                exclude: "/node_modules/"
             },
             {
                 test: /\.scss$/,
@@ -22,15 +22,15 @@ module.exports = {
                     "style-loader",
                     MiniCssExtractPlugin.loader,
                     {
-                        loader: 'css-loader',
+                        loader: "css-loader",
                         options: { sourceMap: true }
                     },
                     {
-                        loader: 'postcss-loader',
-                        options: { sourceMap: true, config: { path: 'src/js/postcss.config.js' } }
+                        loader: "postcss-loader",
+                        options: { sourceMap: true, config: { path: "src/js/postcss.config.js" } }
                     },
                     {
-                        loader: 'sass-loader',
+                        loader: "sass-loader",
                         options: { sourceMap: true }
                     }
                 ]
@@ -38,15 +38,15 @@ module.exports = {
             {
                 test: /\.css$/,
                 use: [
-                    'style-loader',
+                    "style-loader",
                     MiniCssExtractPlugin.loader,
                     {
-                      loader: 'css-loader',
+                      loader: "css-loader",
                       options: { sourceMap: true }
                     }, 
                     {
-                      loader: 'postcss-loader',
-                      options: { sourceMap: true, config: { path: 'src/js/postcss.config.js' } }
+                      loader: "postcss-loader",
+                      options: { sourceMap: true, config: { path: "src/js/postcss.config.js" } }
                     }
                 ]
             }
