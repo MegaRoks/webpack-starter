@@ -1,0 +1,28 @@
+{
+  "name": "webpack-starter",
+  "version": "1.0.0",
+  "description": "Simple config webpack4 and webpack dev server with babel7, scss and lodash",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MegaRoks/webpack-starter.git"
+  },
+  "keywords": [
+    "webpack4",
+    "webpack",
+    "dev",
+    "server",
+    "babel7",
+    "scss",
+    "lodash"
+  ],
+  "author": "Kamenev Maxim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MegaRoks/webpack-starter/issues"
+  },
+  "homepage": "https://github.com/MegaRoks/webpack-starter#readme"
+}
