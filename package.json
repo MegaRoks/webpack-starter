@@ -17,12 +17,9 @@
   },
   "keywords": [
     "webpack4",
-    "webpack",
-    "dev",
-    "server",
+    "webpack-dev-server",
     "babel7",
-    "scss",
-    "lodash"
+    "scss-lodash"
   ],
   "author": "Kamenev Maxim",
   "license": "MIT",
